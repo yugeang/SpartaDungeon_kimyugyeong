@@ -1,18 +1,37 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemData : MonoBehaviour
+public enum ItemType
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    Resource, //자원
+    Consumable //섭취 가능
+}
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+public enum ConsumableType
+{
+    Health //채력회복
+}
+
+[System.Serializable]
+public class ItemDataConsumable
+{
+    public ConsumableType type;
+    public float value;
+}
+
+[CreateAssetMenu(fileName = "Item", menuName = "New Item")]
+public class ItemData : ScriptableObject
+{
+    [Header("Info")] //아이템 정보
+    public string displayName;
+    public string description;
+    public ItemType type;
+    public Sprite icon;
+    public GameObject dropPrefab;
+
+    [Header("Stacking")] //여러개 소비 가능 여부, 갯수 제한
+    public bool canStack;
+    public int maxStackAmount;
+
+    [Header("Consumable")]
+    public ItemDataConsumable[] consumables;
 }
