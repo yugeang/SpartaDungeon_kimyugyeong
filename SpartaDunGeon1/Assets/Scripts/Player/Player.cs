@@ -8,11 +8,13 @@ public class Player : MonoBehaviour
  다른 스크립트에서 전역적으로 플레이어의 컨트롤러 기능 호출 가능*/
 {
     public PlayerController controller;
+    public PlayerCondition condition;
 
     private void Awake()
     {
         // 싱글톤매니저에 Player를 참조할 수 있게 데이터를 넘김
         CharacterManager.Instance.Player = this;
         controller = GetComponent<PlayerController>();
+        condition = GetComponent<PlayerCondition>();
     }
 }
