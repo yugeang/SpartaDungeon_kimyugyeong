@@ -8,7 +8,8 @@ public enum ItemType
 
 public enum ConsumableType
 {
-    Health //채력회복
+    Health,
+    Speed
 }
 
 [System.Serializable]
@@ -16,6 +17,7 @@ public class ItemDataConsumable
 {
     public ConsumableType type;
     public float value;
+    public float duration;
 }
 
 [CreateAssetMenu(fileName = "Item", menuName = "New Item")]

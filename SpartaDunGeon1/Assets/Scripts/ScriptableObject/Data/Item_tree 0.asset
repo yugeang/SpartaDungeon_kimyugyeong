@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04e6b56950ceef449a692914b7128b16, type: 3}
+  m_Name: Item_tree 0
+  m_EditorClassIdentifier: 
+  displayName: "\uB098\uBB34 0"
+  description: "\uADF8\uB0E5 \uB098\uBB34 \uC785\uB2C8\uB2E4."
+  type: 0
+  icon: {fileID: 21300000, guid: bdb82c6b989020c4ba099d23448ced50, type: 3}
+  dropPrefab: {fileID: 7754029692076624165, guid: 3f8a7b6a2b36f614cab2b7080a46839b, type: 3}
+  canStack: 0
+  maxStackAmount: 0
+  consumables: []

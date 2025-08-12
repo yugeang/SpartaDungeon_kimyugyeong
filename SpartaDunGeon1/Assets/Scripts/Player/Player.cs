@@ -13,6 +13,8 @@ public class Player : MonoBehaviour
     public ItemData itemData;
     public Action addItem;
 
+    public Transform dropPosition;
+
     private void Awake()
     {
         // 싱글톤매니저에 Player를 참조할 수 있게 데이터를 넘김

@@ -360,6 +360,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Scripts/Item/BouncePad.cs"
 "Assets/Scripts/Item/ItemObject.cs"
 "Assets/Scripts/Item/Trap.cs"
 "Assets/Scripts/Player/CharacterManager.cs"
@@ -370,7 +371,9 @@
 "Assets/Scripts/ScriptableObject/ItemData.cs"
 "Assets/Scripts/UI/Condition.cs"
 "Assets/Scripts/UI/DamageIndicator.cs"
+"Assets/Scripts/UI/ItemSlot.cs"
 "Assets/Scripts/UI/UICondition.cs"
+"Assets/Scripts/UI/UIInventory.cs"
 -langversion:9.0
 
 /deterministic

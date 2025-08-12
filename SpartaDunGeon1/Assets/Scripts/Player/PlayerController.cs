@@ -10,27 +10,44 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed;
-    private Vector2 curMovementInput;  // 현재 입력된 WASD 값 저장
+    private Vector2 curMovementInput;
     public float jumpPower;
-    public LayerMask groundLayerMask;  // 레이어 지정
+    public LayerMask groundLayerMask;
 
     [Header("Look")]
-    public Transform cameraContainer; //카메라의 상하 회전 담당할 오브젝트
-    public float minXLook;  // 최소 시야각
-    public float maxXLook;  // 최대 시야각
-    private float camCurXRot; //현재 카메라 회전값 저장
-    public float lookSensitivity; // 마우스 감도
+    public Transform cameraContainer;
+    public float minXLook;
+    public float maxXLook;
+    private float camCurXRot;
+    public float lookSensitivity;
+    public bool canLook = true;
 
-    private Vector2 mouseDelta;  // 마우스 이동량
-
-    [HideInInspector]
-    public bool canLook = true; //true면 마우스 회전 허용
+    public Action inventory;
+    private Vector2 mouseDelta;
 
     private Rigidbody rigidbody;
+
+    private float baseMoveSpeed;
+    private Coroutine speedBuffCo;
 
     private void Awake()
     {
         rigidbody = GetComponent<Rigidbody>();
+        baseMoveSpeed = moveSpeed;
+    }
+    public void ApplySpeedBuff(float percent, float duration)
+    {
+        // percent: 30 → 30% 증가
+        if (speedBuffCo != null) StopCoroutine(speedBuffCo);
+        speedBuffCo = StartCoroutine(SpeedBuffRoutine(percent, duration));
+    }
+
+    private System.Collections.IEnumerator SpeedBuffRoutine(float percent, float duration)
+    {
+        moveSpeed = baseMoveSpeed * (1f + (percent / 100f));
+        yield return new WaitForSeconds(duration);
+        moveSpeed = baseMoveSpeed;
+        speedBuffCo = null;
     }
 
     void Start()
@@ -38,13 +55,11 @@ public class PlayerController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    // 물리 연산
     private void FixedUpdate()
     {
         Move();
     }
 
-    // 모든 연산 후 카메라 회전 처리
     private void LateUpdate()
     {
         if (canLook)
@@ -53,13 +68,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // 마우스 이동량 mouseDelta에 저장
     public void OnLookInput(InputAction.CallbackContext context)
     {
         mouseDelta = context.ReadValue<Vector2>();
     }
 
-    // 이동키 입력값 curMovementInput에 저장
     public void OnMoveInput(InputAction.CallbackContext context)
     {
         if (context.phase == InputActionPhase.Performed)
@@ -71,6 +84,7 @@ public class PlayerController : MonoBehaviour
             curMovementInput = Vector2.zero;
         }
     }
+
     public void OnJumpInput(InputAction.CallbackContext context)
     {
         if (context.phase == InputActionPhase.Started && IsGrounded())
@@ -81,18 +95,15 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        // W/S → z축(앞/뒤), A/D → x축(좌/우) 방향 벡터 계산
         Vector3 dir = transform.forward * curMovementInput.y + transform.right * curMovementInput.x;
-        dir *= moveSpeed;  // 속도에 moveSpeed 곱
-        dir.y = rigidbody.velocity.y;  // y값은 velocity(변화량)의 y 값을 넣어준다.
+        dir *= moveSpeed;
+        dir.y = rigidbody.velocity.y;
 
-        rigidbody.velocity = dir;  // 최종 속도를 Rigidbody에 적용
+        rigidbody.velocity = dir;
     }
 
     void CameraLook()
     {
-        // 마우스 움직임의 변화량(mouseDelta)중 y(위 아래)값에 민감도를 곱한다.
-        // 카메라가 위 아래로 회전하려면 rotation의 x 값에 넣어준다.
         camCurXRot += mouseDelta.y * lookSensitivity;
         camCurXRot = Mathf.Clamp(camCurXRot, minXLook, maxXLook);
         cameraContainer.localEulerAngles = new Vector3(-camCurXRot, 0, 0);
@@ -121,9 +132,23 @@ public class PlayerController : MonoBehaviour
     }
 
     public void ToggleCursor(bool toggle)
-        //toggle = true > 커서 보이게, 시야 회전 비활성
-        //toggle = false > 커서 숨김, 시야 회전 활성
     {
+        Cursor.lockState = toggle ? CursorLockMode.None : CursorLockMode.Locked;
+        canLook = !toggle;
+    }
+
+    public void OnInventory(InputAction.CallbackContext context)
+    {
+        if(context.phase == InputActionPhase.Started)
+        {
+            inventory?.Invoke();
+            ToggleCursor();
+        }
+    }
+
+    void ToggleCursor()
+    {
+        bool toggle = Cursor.lockState == CursorLockMode.Locked;
         Cursor.lockState = toggle ? CursorLockMode.None : CursorLockMode.Locked;
         canLook = !toggle;
     }
