@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\assets\\scripts\\item\\itemobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|c:\\users\\\uAE40\uC720\uACBD\\desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\text\\spartadungeon1\\assets\\scripts\\item\\itemobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item\\itemobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|c:\\users\\\uAE40\uC720\uACBD\\desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\text\\spartadungeon1\\assets\\scripts\\item\\bouncepad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\assets\\scripts\\scriptableobject\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobject\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\assets\\scripts\\player\\interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\assets\\scripts\\item\\bouncepad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item\\bouncepad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|c:\\users\\\uAE40\uC720\uACBD\\desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\text\\spartadungeon1\\assets\\scripts\\player\\playercondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\assets\\scripts\\player\\playercondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercondition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\assets\\scripts\\scriptableobject\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobject\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\assets\\scripts\\player\\charactermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\assets\\scripts\\ui\\condition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\condition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\assets\\scripts\\player\\interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29CF09E8-09B5-7380-A60C-53346C072B06}|Assembly-CSharp.csproj|C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\assets\\scripts\\ui\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +70,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BouncePad.cs",
               "DocumentMoniker": "C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\Assets\\Scripts\\Item\\BouncePad.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Item\\BouncePad.cs",
@@ -78,12 +78,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Item\\BouncePad.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T06:34:46.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-12T06:34:46.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UIInventory.cs",
               "DocumentMoniker": "C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\Assets\\Scripts\\UI\\UIInventory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\UIInventory.cs",
@@ -107,15 +106,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Interaction.cs",
               "DocumentMoniker": "C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\Assets\\Scripts\\Player\\Interaction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Interaction.cs",
               "ToolTip": "C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\Assets\\Scripts\\Player\\Interaction.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\Interaction.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADwvzoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T12:52:07.143Z"
+              "WhenOpened": "2025-08-11T12:52:07.143Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -125,22 +125,23 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Item\\ItemObject.cs",
               "ToolTip": "C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\Assets\\Scripts\\Item\\ItemObject.cs",
               "RelativeToolTip": "Assets\\Scripts\\Item\\ItemObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwC4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-11T12:39:40.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "ItemData.cs",
               "DocumentMoniker": "C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\Assets\\Scripts\\ScriptableObject\\ItemData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObject\\ItemData.cs",
               "ToolTip": "C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\Assets\\Scripts\\ScriptableObject\\ItemData.cs",
               "RelativeToolTip": "Assets\\Scripts\\ScriptableObject\\ItemData.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvxMAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T12:13:31.326Z"
+              "WhenOpened": "2025-08-11T12:13:31.326Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -156,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Trap.cs",
               "DocumentMoniker": "C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\Assets\\Scripts\\Trap.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Trap.cs",
@@ -164,12 +165,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Trap.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAADwvw4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T10:01:57.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T10:01:57.193Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PlayerCondition.cs",
               "DocumentMoniker": "C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\Assets\\Scripts\\Player\\PlayerCondition.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerCondition.cs",
@@ -177,8 +177,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerCondition.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-11T09:13:08.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-11T09:13:08.75Z"
             },
             {
               "$type": "Document",
@@ -194,7 +193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Condition.cs",
               "DocumentMoniker": "C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\Assets\\Scripts\\UI\\Condition.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Condition.cs",
@@ -206,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
@@ -230,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CharacterManager.cs",
               "DocumentMoniker": "C:\\Users\\\uAE40\uC720\uACBD\\Desktop\\\uC720\uACBD\uD30C\uC77C\\unity\\github\\Text\\SpartaDunGeon1\\Assets\\Scripts\\Player\\CharacterManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\CharacterManager.cs",

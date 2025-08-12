@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04e6b56950ceef449a692914b7128b16, type: 3}
   m_Name: Item_tree 1
   m_EditorClassIdentifier: 
-  displayName: "\uB098\uBB34 1"
+  displayName: "\uB098\uBB34"
   description: "\uADF8\uB0E5 \uB098\uBB34 \uC785\uB2C8\uB2E4."
   type: 0
   icon: {fileID: 21300000, guid: bdb82c6b989020c4ba099d23448ced50, type: 3}
